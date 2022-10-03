@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Coffee Survey</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>All About Coffee</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="roasting.html"> Roasting </a></li>
+          <li><a href="grinding.html"> grinding </a></li>
+          <li><a href="drinks.html"> Drinks </a></li>
+          <li><a href="brewing.html"> Brewing </a></li>
+          <li>
+            <a href="index.html"> Cofee Survey </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Coffee Survey</h1>
+    <aside>
+      <figure><img src="images/espresso.jpg" alt="A cup of espresso"></figure>
+    </aside>
+    <form action="coffee-survey.php" method="post">
+    <fieldset>
+      <legend>
+Your personal information
+      </legend>
+      Your Name
+      <input type="name" name="name" required size="40" />
+    </br>
+  </br>
+  Email Address 
+  <input type="email" name="email" size="40" required placeholder="Enter a valid email address"/>
+  
+</fieldset>
+
+</br>
+<fieldset>
+  <legend>
+Your cofee preparation
+  </legend>
+    </br>
+      Tell us your coffee preparation methods.</br>
+      <textarea name="preparation" rows="6" cols="40"></textarea>
+    </br>
+    </br>
+    Do you grind yourown beans?
+    <input type="radio" name ="grind" value="yes"/> yes 
+    <input type="radio" name ="grind" value="no"/> no 
+    
+    </br>
+    </br>
+    How do you drink your coffee? 
+    <input type="checkbox" name ="checkbox" value="withsugar"/>with sugar 
+    <input type="checkbox" name ="checkbox" value="withcream"/>with cream 
+  
+    </br>
+    </br>
+    What is your favorite coffee drink? please select a drink
+    <select name="favourite">
+    <option value="drip">
+     drip 
+    </option>
+    <option value="coffee">
+    coffee 
+    </option >
+    <option value="frenchpress">
+    frenchpress 
+    </option>
+    <option value="espresso">
+    espresso 
+    </option>
+    <option value="latte">
+    latte
+    </option>
+    <option value="flavored">
+      flavored
+    </option>
+    </select>
+</fieldset>
+    </br>
+    </form>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="roasting.html"> Roasting </a></li>
+          <li><a href="grinding.html"> grinding </a></li>
+          <li><a href="drinks.html"> Drinks </a></li>
+          <li><a href="brewing.html"> Brewing </a></li>
+          <li>
+            <a href="index.html"> Cofee Survey </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
